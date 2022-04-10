@@ -3,6 +3,7 @@ from cli import cli
 
 
 width, height, is_print, save_path = cli()
+print(save_path)
 
 maze = Maze(width, height)
 if is_print:
